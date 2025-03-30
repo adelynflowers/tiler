@@ -14,4 +14,4 @@ jobs:
           java-version: '23'
           distribution: 'temurin'
       - name: Build with Gradle
-        run: ./gradlew -b ci.gradle package
+        run: ./gradlew package
